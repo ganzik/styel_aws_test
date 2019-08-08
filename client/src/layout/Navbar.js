@@ -49,7 +49,7 @@ const Navbar = ({ auth: { isAuthenticated, loading, user }, logout }) => {
       <Menu fixed="top" borderless>
         <Container>
           <Menu.Item>
-            <Link to="/#">
+            <Link to="/">
               <Image src="https://styel.s3.ap-northeast-2.amazonaws.com/styel_42x42.png" />
             </Link>
           </Menu.Item>
