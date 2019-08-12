@@ -71,7 +71,6 @@ const Login = ({ login, isAuthenticated }) => {
           {/* <Typography variant="h3" gutterBottom>
             STYEL
           </Typography> */}
-
           <form className={classes.container} onSubmit={e => onSubmit(e)}>
             <TextField
               fullWidth="true"
@@ -108,14 +107,12 @@ const Login = ({ login, isAuthenticated }) => {
               size="large"
               fullWidth="true"
               variant="outlined"
-              type="submit"
               className={classes.button}
             >
               New to us? <Link to="/register">&nbsp; Sign Up</Link>
             </Button>
-            <Link to="/forgotpassword">ForgotPassword</Link>
           </form>
-
+          <Link to="/forgotpassword">ForgotPassword</Link>
           <Alert />
         </Grid.Column>
       </Grid>
